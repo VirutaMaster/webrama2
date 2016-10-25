@@ -1,11 +1,12 @@
 <?php
 
 echo "hello world!";
-/* require('config/appConfig.php');
+require('config/appConfig.php');
+
+/* 
 require('controller/noticia_controller.php');
 require('controller/productos_controller.php');
 require('libs/Smarty.class.php');
-
 
 $noticia_controller = new noticia_controller();
 $productos_controller = new productos_controller();
@@ -44,4 +45,6 @@ switch (isset($_GET[AppConfig::$ACTION]) ? $_GET[AppConfig::$ACTION] : AppConfig
     echo "sin parametros";
   break;
 } */
+
+echo "procesado!";
  ?>
