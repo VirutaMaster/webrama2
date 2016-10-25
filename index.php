@@ -13,6 +13,7 @@ $productos_controller = new productos_controller();
 switch (isset($_GET[AppConfig::$ACTION]) ? $_GET[AppConfig::$ACTION] : AppConfig::$ACTION_DEFAULT ) {
 
   case AppConfig::$ACTION_SHOW_NEWS:
+		echo "$ACTION_SHOW_NEWS";
       $noticia_controller->show_news();
   break;
 /* 
@@ -40,10 +41,10 @@ switch (isset($_GET[AppConfig::$ACTION]) ? $_GET[AppConfig::$ACTION] : AppConfig
   case AppConfig::$ACTION_CONTACTO:
       $productos_controller->contacto();
   break;
-
+ */
   default:
     echo "sin parametros";
-  break; */
+  break;
 }
 
 echo "procesado!";
