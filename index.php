@@ -1,5 +1,7 @@
 <?php
-require('config/appConfig.php');
+
+echo "hello world!";
+/* require('config/appConfig.php');
 require('controller/noticia_controller.php');
 require('controller/productos_controller.php');
 require('libs/Smarty.class.php');
@@ -41,5 +43,5 @@ switch (isset($_GET[AppConfig::$ACTION]) ? $_GET[AppConfig::$ACTION] : AppConfig
   default:
     echo "sin parametros";
   break;
-}
+} */
  ?>
