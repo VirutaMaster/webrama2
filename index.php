@@ -7,8 +7,8 @@ require('controller/noticia_controller.php');
 require('libs/Smarty.class.php'); 
 /* require('controller/productos_controller.php');*/
 
-
-$productos_controller = new productos_controller();
+$noticia_controller = new noticia_controller();
+/* $productos_controller = new productos_controller(); */
 
 switch (isset($_GET[AppConfig::$ACTION]) ? $_GET[AppConfig::$ACTION] : AppConfig::$ACTION_DEFAULT ) {
 
