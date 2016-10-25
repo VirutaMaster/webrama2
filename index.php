@@ -18,14 +18,14 @@ require('libs/Smarty.class.php'); */
     print_r($news);
  */
 
-/* 
-$productos_controller = new productos_controller();
+/* $productos_controller = new productos_controller(); */
 
 switch (isset($_GET[AppConfig::$ACTION]) ? $_GET[AppConfig::$ACTION] : AppConfig::$ACTION_DEFAULT ) {
 
   case AppConfig::$ACTION_SHOW_NEWS:
       $noticia_controller->show_news();
   break;
+/* 
 
   case AppConfig::$ACTION_SHOW_NEWS_BODY:
       $noticia_controller->show_news_body();
