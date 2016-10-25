@@ -1,24 +1,14 @@
 <?php
 
 echo "hello world!";
-require('config/appConfig.php');
 
+require('config/appConfig.php');
 require('controller/noticia_controller.php');
 require('libs/Smarty.class.php'); 
-/* require('controller/productos_controller.php');
+/* require('controller/productos_controller.php');*/
 
 
-
- 
-/*  $db=new PDO('pgsql:host=ec2-54-243-249-137.compute-1.amazonaws.com;dbname=dflqknou6paj1o','wvqoonnrcxdcxy','B8NquC0rik4ZU8NcxqInf8bPzX');
- print_r($db);
-	$select = $db->prepare("select * from noticias");
-    $select->execute();
-    $news=$select->fetchAll(PDO::FETCH_ASSOC);
-    print_r($news);
- */
-
-/* $productos_controller = new productos_controller(); */
+$productos_controller = new productos_controller();
 
 switch (isset($_GET[AppConfig::$ACTION]) ? $_GET[AppConfig::$ACTION] : AppConfig::$ACTION_DEFAULT ) {
 
@@ -53,8 +43,8 @@ switch (isset($_GET[AppConfig::$ACTION]) ? $_GET[AppConfig::$ACTION] : AppConfig
 
   default:
     echo "sin parametros";
-  break;
-} */
+  break; */
+}
 
 echo "procesado!";
  ?>
