@@ -4,8 +4,8 @@ echo "hello world!";
 require('config/appConfig.php');
 
 require('controller/noticia_controller.php');
+require('libs/Smarty.class.php'); 
 /* require('controller/productos_controller.php');
-require('libs/Smarty.class.php'); */
 
 
 
