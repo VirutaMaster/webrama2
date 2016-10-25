@@ -23,16 +23,16 @@ class noticia_model
     $select = $this->db->prepare("select * from noticias");
     $select->execute();
     $news=$select->fetchAll(PDO::FETCH_ASSOC);
-    //print_r($news);
+    print_r($news);
     return $news;
   }
 }
 
+$noticia_controller = new noticia_controller();
 
-
+echo $noticia_controller->get_noticias();
 
 /* 
-$noticia_controller = new noticia_controller();
 $productos_controller = new productos_controller();
 
 switch (isset($_GET[AppConfig::$ACTION]) ? $_GET[AppConfig::$ACTION] : AppConfig::$ACTION_DEFAULT ) {
