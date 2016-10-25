@@ -3,10 +3,10 @@
 echo "hello world!";
 require('config/appConfig.php');
 
-/* 
 require('controller/noticia_controller.php');
 require('controller/productos_controller.php');
 require('libs/Smarty.class.php');
+/* 
 
 $noticia_controller = new noticia_controller();
 $productos_controller = new productos_controller();
