@@ -1,0 +1,233 @@
+/*css personalizado*/
+.news-fig{
+  float:right;
+  margin-left: 30px;
+}
+#nav-princ .navbar-nav li a{
+    color: white !important;
+    font-weight: bold;
+}
+.navbar-nav > li.active{
+  color: black !important;
+}
+.noticia{
+      min-height: 390px;
+      padding: 40px;
+}
+
+.productos .caption{
+  height: 50px;
+}
+
+.productos .caption input{
+  float:left;
+  margin-right:10px;
+}
+
+.descripcion h3{
+  margin:5px;
+  text-align: center;
+}
+
+.btn-info{
+  position: absolute;
+  right: 48px;
+  top: 15px;
+}
+
+.del-item{
+  position: absolute;
+  right: 20px;
+  top: 24px;
+}
+
+.compare-check{
+  display:none;
+}
+
+.pad-body{
+  margin-top: 70px;
+}
+.ribbon-logo{
+  background-color:#23b969;
+  height: auto;
+}
+#nav-princ{
+  background-color: #66a323;
+  border-color: #66a323;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+footer{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+footer ul li{
+  display: inline;
+  margin:15px;
+}
+
+.footer-fondo{
+  background-color: black;
+  color:white;
+}
+
+.precio{
+  font-weight: bold;
+}
+
+#carousel-example-generic .carousel-caption{
+  font-size: 20px;
+}
+
+#prod-tools{
+  display:none;
+}
+
+#newprod-error{
+  display: none;
+}
+
+#desc-prod{
+  resize: none;
+}
+
+#prod-tools .btn-warning{
+  margin-left: 10px;
+}
+
+.glyphicon-list-alt, .glyphicon-info-sign{
+  margin-right: 10px;
+}
+
+.productos .well{
+  min-height: 270px;
+}
+
+.reviews .glyphicon, .guias .glyphicon{
+  margin-right: 10px;
+}
+.jumbotron.guias{
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgb(170, 204, 0);
+  background: -moz-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgb(170, 204, 0);
+  background: linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgb(170, 204, 0);
+  background-position: auto auto;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 50px 50px;
+  background-size: 50px 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.jumbotron.productos{
+  -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(173,132,105,1);
+    background: -moz-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(173,132,105,1);
+    background: linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(173,132,105,1);
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.jumbotron.reviews{
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(82,104,229,1);
+  background: -moz-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(82,104,229,1);
+  background: linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(82,104,229,1);
+  background-position: auto auto;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 50px 50px;
+  background-size: 50px 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.jumbotron.home{
+  -webkit-box-sizing: content-box;
+ -moz-box-sizing: content-box;
+ box-sizing: content-box;
+ border: none;
+ font: normal 100%/normal Arial, Helvetica, sans-serif;
+ color: rgba(255,255,255,1);
+ -o-text-overflow: clip;
+ text-overflow: clip;
+ background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(183,183,51,1);
+ background: -moz-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(183,183,51,1);
+ background: linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(183,183,51,1);
+ background-position: auto auto;
+ -webkit-background-origin: padding-box;
+ background-origin: padding-box;
+ -webkit-background-clip: border-box;
+ background-clip: border-box;
+ -webkit-background-size: 50px 50px;
+ background-size: 50px 50px;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ margin-bottom: 0px;
+}
+
+.jumbotron.contacto{
+  -webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+border: none;
+font: normal 100%/normal Arial, Helvetica, sans-serif;
+color: rgba(255,255,255,1);
+-o-text-overflow: clip;
+text-overflow: clip;
+background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(137,48,125,1);
+background: -moz-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(137,48,125,1);
+background: linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(137,48,125,1);
+background-position: auto auto;
+-webkit-background-origin: padding-box;
+background-origin: padding-box;
+-webkit-background-clip: border-box;
+background-clip: border-box;
+-webkit-background-size: 50px 50px;
+background-size: 50px 50px;
+padding-bottom: 10px;
+padding-top: 10px;
+
+}
+
+.row.reviews  .badge {
+    float: right;
+}
