@@ -1,14 +1,14 @@
 <?php
 
-echo "hello world!";
+
 
 require('config/appConfig.php');
 require('controller/noticia_controller.php');
 require('libs/Smarty.class.php'); 
-/* require('controller/productos_controller.php');*/
+require('controller/productos_controller.php');
 
 $noticia_controller = new noticia_controller();
-/* $productos_controller = new productos_controller(); */
+$productos_controller = new productos_controller();
 
 switch (isset($_GET[AppConfig::$ACTION]) ? $_GET[AppConfig::$ACTION] : AppConfig::$ACTION_DEFAULT ) {
 
@@ -16,7 +16,7 @@ switch (isset($_GET[AppConfig::$ACTION]) ? $_GET[AppConfig::$ACTION] : AppConfig
 		echo "$ACTION_SHOW_NEWS";
       $noticia_controller->show_news();
   break;
-/* 
+
 
   case AppConfig::$ACTION_SHOW_NEWS_BODY:
       $noticia_controller->show_news_body();
@@ -41,11 +41,11 @@ switch (isset($_GET[AppConfig::$ACTION]) ? $_GET[AppConfig::$ACTION] : AppConfig
   case AppConfig::$ACTION_CONTACTO:
       $productos_controller->contacto();
   break;
- */
+ 
   default:
     echo "sin parametros";
   break;
 }
 
-echo "procesado!";
+
  ?>

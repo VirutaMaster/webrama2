@@ -9,7 +9,7 @@ class productos_model
 
   public function __construct()
   {
-    $this->db = new PDO('mysql:host=localhost;dbname=camping_pesca_motos;charset=utf8','usuario1','123456');
+    $this->db = new PDO('pgsql:host=ec2-54-243-249-137.compute-1.amazonaws.com;dbname=dflqknou6paj1o','wvqoonnrcxdcxy','B8NquC0rik4ZU8NcxqInf8bPzX');
   }
 
   public function get_products(){
