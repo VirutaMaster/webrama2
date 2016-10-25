@@ -8,7 +8,7 @@ require('controller/productos_controller.php');
 require('libs/Smarty.class.php'); */
 
 
-class noticia_model
+/* class noticia_model
 {
   private $db;
 
@@ -27,10 +27,14 @@ class noticia_model
     return $news;
   }
 }
+ */
+ 
+ $db=new PDO('mysql:host=ec2-54-243-249-137.compute-1.amazonaws.com;dbname=dflqknou6paj1o;charset=utf8','wvqoonnrcxdcxy','B8NquC0rik4ZU8NcxqInf8bPzX');
+	$select = $db->prepare("select * from noticias");
+    $select->execute();
+    $news=$select->fetchAll(PDO::FETCH_ASSOC);
+    print_r($news);
 
-$noticia_controller = new noticia_controller();
-
-echo $noticia_controller->get_noticias();
 
 /* 
 $productos_controller = new productos_controller();
